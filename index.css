@@ -1,0 +1,278 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lumanosimo&family=Noto+Sans:ital,wght@1,100&family=Oswald&family=Poppins:ital,wght@1,100&family=Satisfy&family=Ysabeau+SC:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+html{
+scroll-behavior: smooth;    
+}
+
+
+.base{
+    background-color: black;
+}
+
+.main{
+    background-image: url(./imagesresta/second\ backgroundjpeg.jpg);
+    }
+
+.container{
+    width: 100%;
+    height:auto;
+    position: relative;
+}
+
+.logo{
+    width:100%;
+    height: 200px;    
+}
+.logo:hover{
+    animation: shake  infinite 0.75s;
+
+}
+@keyframes shake {
+
+    10%{
+        transform: rotate (15deg);
+    } 
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+
+    40%{
+        transform: rotate(-15deg);
+    }
+
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items: center;
+padding:1px 1px;
+width: 100%;
+height: 190px;
+}
+
+
+.button{
+    margin-left:50%;
+    border:  1px solid black;
+    text-decoration: none;
+}
+
+
+.listitem{
+font-size: 15px;
+display:inline-flex;
+flex-direction: row;
+margin: 10px 19px;
+list-style: none;
+}
+
+.home{
+    width: 100%;
+    height: 500px;
+}
+
+#homepara{
+    font-size: 30px;
+    color: white;
+    margin-top:200px;
+    text-align: center;
+
+}
+
+.login{
+   color:white ;
+   background-color:black;
+    text-decoration: none;   
+}
+
+
+.login:hover{
+    color: rgb(135, 25, 25);
+    background-color:white;
+}
+
+
+.firstbackground{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;   
+}
+
+
+.link{
+
+    text-decoration: none;
+    color: white;   
+}
+
+
+.link:hover{
+ text-decoration: none;
+color: rgb(135, 25, 25);
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+#listitems{
+width:11%;
+height: 50%;
+padding: 19px;
+display:inline-block;
+}
+
+
+.listitems{
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+
+.imglink:hover{
+    background-image: linear-gradient(to right bottom ,white, GOLD);
+}
+
+
+.listimage{
+    width:150px;
+    height:150px;
+   padding: 1%;
+   margin-left: 35px;
+}
+
+
+.imglink{
+    text-decoration: none;
+    color: black;
+}
+
+
+.html{
+scroll-behavior: smooth;
+}
+
+
+
+#title{
+    text-align: center;
+    color:white;
+    
+    
+}
+
+
+.about{
+    width: auto;
+    height: 0%;
+    margin-top: 50px;
+}
+
+
+
+#para{
+    font-size: 16px;
+    width: 90%;
+    padding:0%;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 60px;
+    text-align: center;
+}
+
+
+
+.contact{
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;    
+}
+
+
+.icon-set{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.icon, .uparrow i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:1%;
+}
+
+
+.icon i{
+    font-size: 34px;
+    color:aliceblue;
+}
+
+
+.icon:hover{
+    background-image: linear-gradient(to left bottom ,black,darkred);
+}
+
+.location{
+    text-decoration: none;
+    color: beige;
+    margin-left:43%;
+}
+.location:hover{
+color: rgb(135, 25, 25);
+}
+
+
+.footer{
+    width: 100%;
+    height: 140px;
+    background-color: rgb(49, 47, 47);
+}
+
+
+#footer{
+    display: block;
+    text-align:center;
+    align-items: center;
+    color: aliceblue;
+    padding:3.5%
+}
+
+
+.uparrow{
+    float: right;
+}
+
+
+ .uparrow i{
+    font-size: 20px;
+color: white;
+ } 
+ 
+ 
+
+ .uparrow i:hover{
+    background-image: linear-gradient(to left bottom , black,darkred);
+ }
